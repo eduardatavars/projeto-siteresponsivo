@@ -3,5 +3,7 @@ $(document).ready(function() {
         autoplay: true
     })
 
-    $('')
+    $('.btn-menu button').click(function() {
+        $('.menu').slideToggle()
+    })
 })
