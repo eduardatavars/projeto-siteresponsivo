@@ -1,6 +1,8 @@
 $(document).ready(function() {
     $('#carousel-img').slick({
-        autoplay: true
+        autoplay: true,
+        arrows: false,
+        dots: true
     })
 
     $('.btn-menu button').click(function() {

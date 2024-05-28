@@ -21,8 +21,14 @@ header, footer {
     color: #fff;
 }
 
-header > .container,
+header > .container, 
+#sobre .container, 
+#produtos .container, 
 footer > .container {
+    padding: 0 15px;
+}
+
+header > .container {
     justify-content: space-between;
     align-items: center;   
     display: flex;
@@ -39,14 +45,6 @@ span {
     color: #99b2cc;
 }
 
-header li {
-    list-style: none;
-    display: inline;
-    margin-right: 16px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
 header a, li {
     text-decoration: none;
     color: #99b2cc;
@@ -56,6 +54,10 @@ header a, li {
     float: left;
     padding: 16px;
     position: relative;
+    list-style: none;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .submenu {
@@ -81,6 +83,16 @@ header a, li {
 
 .menu li:hover {
     border-color: red;
+}
+
+#carousel-img img {
+    max-width: 100%;
+    display: block;
+}
+
+.produtos article {
+    overflow: hidden;
+    padding: 15px;
 }
 
 .produto-sub {
